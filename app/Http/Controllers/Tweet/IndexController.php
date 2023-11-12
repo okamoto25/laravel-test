@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Tweet;
 use App\Services\TweetService;
+use Exception;
 
 class IndexController extends Controller
 {
